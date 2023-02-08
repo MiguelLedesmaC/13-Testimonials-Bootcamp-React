@@ -4,8 +4,8 @@ import React, { useState } from 'react'
 const Header = () => {
     const testimonialTanya = '“ I’ve been interested in coding for a while but never taken the jump, until now. I couldn’t recommend this course enough. I’m now in the job of my dreams and so excited about the future. ”'
     const testimonialJhon = 'If you want to lay the best foundation possible I’d recommend taking this course. The depth the instructors go into is incredible. I now feel so confident about starting up as a professional developer. ”'
-    const imageTania = '../../public/images/image-tanya.jpg'
-    const imageJhon = '../../public/images/image-john.jpg'
+    const imageTania = '../assets/image-tanya.jpg'
+    const imageJhon = '../assets/image-john.jpg'
 
     const images = [imageTania, imageJhon]
     const testimonials = [testimonialTanya, testimonialJhon]
