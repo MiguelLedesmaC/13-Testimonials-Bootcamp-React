@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 //Images
 import imageJohn from '../assets/image-john.jpg'
 import imageTanya from '../assets/image-tanya.jpg'
@@ -65,10 +66,11 @@ const Testimonial = () => {
             <div className='flex flex-col justify-center items-center  py-10 pl-10 '>
             <img src={selectedImage} alt="tanya photo" className='w-[17.5rem] '/>
             <div className='flex bg-white w-28 h-12 justify-evenly items-center rounded-3xl -mt-3 mb-12 '>
-            <button onClick={previus} >
-                <img  src={prevIcon} alt="prev icon" />
+            <button className=' grid place-content-center w-12 h-12' onClick={previus} >
+                <img src={prevIcon} alt="prev icon" />
             </button>
-            <button onClick={next}>
+            <hr className='w-[1px] h-6 bg-gray-300' />
+            <button className=' grid place-content-center w-12 h-12' onClick={next}>
                 <img  src={nextIcon} alt="next icon"/>
             </button>
             
